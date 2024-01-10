@@ -56,7 +56,7 @@ export default function Uses() {
           <Tool title="Express"></Tool>
           <Tool title="Databases">
             NoSQL including MongoDB, Firebase, Supabase. SQL include Postgres. I
-            also took Cornell's CS 4320 - Intro to Database Management.
+            also took Cornell CS 4320 - Intro to Database Management.
           </Tool>
           <Tool title="GraphQL">
             A great synthesizer of information but requires too much
@@ -100,7 +100,7 @@ export default function Uses() {
             BFS...
           </Tool>
           <Tool title="CS 2800 - Discrete Structures">
-            One of the most challenging course in Cornell's CS.
+            One of the most challenging course in Cornell CS.
           </Tool>
         </ToolsSection>
       </div>
