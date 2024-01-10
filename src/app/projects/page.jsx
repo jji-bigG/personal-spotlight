@@ -7,42 +7,31 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoICEA from '@/images/logos/icea.png'
 
 const projects = [
   {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    name: 'Global Airlearning',
+    description: 'Weekly lectures for participants in the ICEA community.',
+    link: {
+      href: 'http://globalairlearning.org',
+      label: 'globalairlearning.org',
+    },
+    logo: logoICEA,
   },
   {
-    name: 'Animaginary',
+    name: 'Ethereum Voting Kickstarter',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
+      'This is the first web3 exposure I have in creating a "clone" of Kickstarter, a crowd-funding app, and using smart contracts to eliminate some of its scams.',
     link: { href: '#', label: 'github.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Student Hub',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'All in one place for college campuses: instant messaging, course & roster planning, event scheduling, and more!',
+    link: { href: '#', label: 'netlify.app' },
     logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
   },
 ]
 
