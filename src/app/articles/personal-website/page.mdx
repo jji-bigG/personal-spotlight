@@ -1,0 +1,19 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+
+export const article = {
+  author: 'Jerry Ji',
+  date: '2024-01-10',
+  title: 'Creating the Personal Website',
+  description:
+    'Releasing my personal website and documenting my experience in Tailwind.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+lol
