@@ -15,11 +15,14 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+
+import logoICEA from '@/images/logos/icea.png'
+
+import image1 from '@/images/banner/bear1.jpeg'
+import image2 from '@/images/banner/bear7.jpeg'
+import image3 from '@/images/banner/bear3.jpeg'
+import image4 from '@/images/banner/bear5.jpeg'
+import image5 from '@/images/banner/bear6.jpeg'
 import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
 
@@ -137,36 +140,43 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      company: 'www.intlcea.org',
+      title: 'Frontend Techlead',
+      logo: logoICEA,
+      start: '2020',
+      end: '2023',
     },
-    {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
-    },
+    // {
+    //   company: 'Planetaria',
+    //   title: 'CEO',
+    //   logo: logoPlanetaria,
+    //   start: '2019',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
+    // {
+    //   company: 'Airbnb',
+    //   title: 'Product Designer',
+    //   logo: logoAirbnb,
+    //   start: '2014',
+    //   end: '2019',
+    // },
+    // {
+    //   company: 'Facebook',
+    //   title: 'iOS Software Engineer',
+    //   logo: logoFacebook,
+    //   start: '2011',
+    //   end: '2014',
+    // },
+    // {
+    //   company: 'Starbucks',
+    //   title: 'Shift Supervisor',
+    //   logo: logoStarbucks,
+    //   start: '2008',
+    //   end: '2011',
+    // },
   ]
 
   return (
@@ -209,7 +219,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="/Ruiyang Ji Resume.pdf"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -252,35 +266,40 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            CS student, programmer, and learning AI, web3, quant dev.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I am Jerry, a computer science student at Cornell University and a
+            web developer with in-dept knowledge in the React Ecosystem. I
+            developed several full stack applications on my own and for a small
+            (1000 people) organizatioin. Some of my interests include Web3, AI,
+            and possibly quantitative development.
           </p>
           <div className="mt-6 flex gap-6">
+            {/* <SocialLink href="#" icon={TwitterIcon}>
+              Follow on Twitter
+            </SocialLink> */}
             <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
+              href="https://www.instagram.com/jerryji2793/"
               icon={InstagramIcon}
-            />
+              className="mt-4"
+            >
+              Follow on Instagram
+            </SocialLink>
             <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
+              href="https://github.com/jji-bigG"
               icon={GitHubIcon}
-            />
+              className="mt-4"
+            >
+              Follow on GitHub
+            </SocialLink>
             <SocialLink
-              href="https://linkedin.com"
-              aria-label="Follow on LinkedIn"
+              href="https://www.linkedin.com/in/ruiyang-ji-a67437270/"
               icon={LinkedInIcon}
-            />
+              className="mt-4"
+            >
+              Follow on LinkedIn
+            </SocialLink>
           </div>
         </div>
       </Container>

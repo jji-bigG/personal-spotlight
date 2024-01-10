@@ -9,7 +9,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/photos/townsend.jpeg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -64,28 +64,25 @@ export default function About() {
             <p>
               I started my programming journey since high school, when I decided
               to give FIRST robotics a shot. It was C++, but it was never a plus
-              for me. I quickly gave up for the more simple Python.
+              for me.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              Learning Python had opened up a new world to me. First with the
+              Covoluted Neural Networks & Regional Image Segmentation works I
+              done using OpenCV and Tensorflow, Keras; then with the continued
+              interest in Python web development (Django), I ventured into
+              React.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              It all blew up from then. I contacted people online and ended with
+              a unpaid internship (volunteering hours) at www.intlcea.org where
+              I taught over 20 students basic web technologies and collaborated
+              with Snapchat and Meta engineers to build a chess tournament
+              registration app and{' '}
+              <a href="www.globalairlearning.org">Global AirLearning</a> (a
+              weekly presentation program).
             </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
-            </p>
+            <p>Today, I am a first-year at Cornell (Class of 2027).</p>
           </div>
         </div>
         <div className="lg:pl-20">
@@ -93,13 +90,25 @@ export default function About() {
             {/* <SocialLink href="#" icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink> */}
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink
+              href="https://www.instagram.com/jerryji2793/"
+              icon={InstagramIcon}
+              className="mt-4"
+            >
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink
+              href="https://github.com/jji-bigG"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/ruiyang-ji-a67437270/"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
