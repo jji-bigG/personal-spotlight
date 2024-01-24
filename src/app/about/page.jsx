@@ -79,7 +79,7 @@ export default function About() {
               I taught over 20 students basic web technologies and collaborated
               with Snapchat and Meta engineers to build a chess tournament
               registration app and{' '}
-              <a href="www.globalairlearning.org">Global AirLearning</a> (a
+              <a href="https://globalairlearning.org/">Global AirLearning</a> (a
               weekly presentation program).
             </p>
             <p>Today, I am a first-year at Cornell (Class of 2027).</p>
