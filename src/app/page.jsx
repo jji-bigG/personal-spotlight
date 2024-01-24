@@ -14,10 +14,10 @@ import {
 
 import logoICEA from '@/images/logos/icea.png'
 
-import image1 from '@/images/banner/bear1.jpeg'
-import image2 from '@/images/banner/bear7.jpeg'
-import image3 from '@/images/banner/bear3.jpeg'
-import image4 from '@/images/banner/bear5.jpeg'
+import image1 from '@/images/banner/bailey.jpeg'
+import image2 from '@/images/banner/jiangnan.jpeg'
+import image3 from '@/images/banner/bailey.jpeg'
+import image4 from '@/images/banner/dior.jpeg'
 import image5 from '@/images/banner/bear6.jpeg'
 import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
