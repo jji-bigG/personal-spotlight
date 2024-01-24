@@ -262,14 +262,14 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            CS student, programmer, and learning AI, web3, quant dev.
+            CS student, Cornellian: learning AI, web3, quant.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I am Jerry, a computer science student at Cornell University and a
             web developer with in-dept knowledge in the React Ecosystem. I
             developed several full stack applications on my own and for a small
-            (1000 people) organizatioin. Some of my interests include Web3, AI,
-            and possibly quantitative development.
+            (1000 people) community organizatioin. Some of my interests include
+            Web3, AI, and possibly quantitative development.
           </p>
           <div className="mt-6 flex gap-6">
             {/* <SocialLink href="#" icon={TwitterIcon}>
